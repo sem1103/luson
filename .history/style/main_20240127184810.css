@@ -717,9 +717,6 @@ footer form input{
     }
 }
 @media only screen and (max-width: 1300px){
-    .header__background video{
-        width: initial;
-    }
     .offer__slider .slick-prev, .offer__slider .slick-next{
         top: 20px;
     }
@@ -734,7 +731,9 @@ footer form input{
     }
 }
 @media only screen and (max-width: 1000px){
-   
+    .header__background video{
+        width: initial;
+    }
 
     footer .container{
         flex-direction: column;

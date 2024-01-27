@@ -394,7 +394,7 @@ p {
 
 .slick-arrow {
     position: absolute;
-    top: 30%;
+    top: 25%;
     transform: translateY(-50%);
     z-index: 99;
     font: 25px Arial;
@@ -717,9 +717,6 @@ footer form input{
     }
 }
 @media only screen and (max-width: 1300px){
-    .header__background video{
-        width: initial;
-    }
     .offer__slider .slick-prev, .offer__slider .slick-next{
         top: 20px;
     }
@@ -734,7 +731,9 @@ footer form input{
     }
 }
 @media only screen and (max-width: 1000px){
-   
+    .header__background video{
+        width: initial;
+    }
 
     footer .container{
         flex-direction: column;
@@ -969,7 +968,6 @@ footer form input{
         width: 42px;
         height: 42px;
         padding: 0;
-        top: 35%;
     }
 
     .footer__logo > div:last-child{
