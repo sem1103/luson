@@ -1,0 +1,8 @@
+.container{
+    max-width: 1540px;
+    margin: 0 auto;
+}
+
+header{
+    background: url(../img/mainBg.png) center/cover;
+}

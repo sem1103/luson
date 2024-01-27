@@ -1,0 +1,200 @@
+.container {
+    max-width: 1540px;
+    margin: 0 auto;
+}
+
+header {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header > nav {
+    display: flex;
+    justify-content: space-between;
+    z-index: 5;
+    position: relative;
+    padding: 46px 59px 24px 52px;
+    align-items: start;
+    text-transform: uppercase;
+    transition: all .3s ease-in-out;
+}
+
+.left__menu {
+    display: flex;
+}
+
+.right__menu {
+    text-align: right;
+}
+
+header > nav button {
+    background: none;
+    border: 0;
+    color: #fff;
+    font: 18px/14px var(--playfair);
+    margin: 0 42px 0 0;
+    text-transform: inherit;
+}
+header > nav span {
+    margin: 0 21px 0 0;
+}
+
+header > nav a {
+    color: #fff;
+    font: 14px/21px Inter;
+}
+
+.right__menu a {
+    font-family: var(--playfair);
+    line-height: 26px;
+}
+
+.right__menu p:last-child a {
+    border: 1px solid #fff;
+    text-align: center;
+    display: block;
+    padding: 14px 33px;
+    margin: 15px 0 0 auto;
+    max-width: 160px;
+}
+
+.header__background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.header__background img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.header__logo {
+    display: none;
+}
+
+.logo {
+    position: relative;
+    z-index: 1;
+    margin: auto auto 0 auto;
+    padding: 0 0 120px 0;
+}
+
+.sticky__elem {
+    position: sticky;
+    top: 0;
+    background-color: #EBEBEB;
+    padding: 16px 36px 15px 36px;
+    align-items: center;
+}
+
+.sticky__elem  button,
+.sticky__elem a {
+    color: var(--gray);
+}
+
+.sticky__elem button path,
+.sticky__elem button rect {
+    fill: var(--gray);
+}
+
+.sticky__elem .right__menu {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.sticky__elem .right__menu p:last-child a {
+    margin: 0 0 0 34px;
+    border-color: #702E58;
+}
+
+.sticky__elem a:hover {
+    color: #434343d0;
+}
+
+.sticky__elem .header__logo {
+    display: initial;
+}
+
+.left__menu,
+.right__menu {
+    flex-basis: 35%;
+}
+
+.active__menu {
+    overflow: hidden;
+}
+#menu__wrapper{
+    display: none;
+}
+.active__menu #menu__wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #00000039;
+    z-index: 9999;
+    display: flex;
+}
+
+.menu {
+    max-width: 1230px;
+    width: 100%;
+    margin: auto;
+    background: #EBEBEB;
+    padding: 46px 86px 63px 86px;
+    overflow: auto;
+    max-height: 100%;
+}
+.menu__logo{
+    text-align: center;
+    margin: 0 0 34px 0;
+}
+
+.menu__content {
+    display: flex;
+    justify-content: space-between;
+}
+.menu__content li a{
+    color: var(--gray);
+    font: 500 24px var(--playfair);
+    text-transform: uppercase;
+    opacity: .5;
+}
+.separator{
+    margin: 0;
+    background-color: #4E4E4E;
+    border: 0;
+    width: 1px;
+}
+.contacts, .active__menu nav{
+    flex-basis: 40%;
+}
+
+
+/*-----Mnain------*/
+h1 {
+    font: 500 36px var(--playfair);
+    color: var(--gray);
+    margin: 80px 0 20px 0;
+    text-align: center;
+}
+
+section>p {
+    max-width: 1320px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+p {
+    color: var(--gray);
+    font: 17px/26px var(--playfair);
+}
