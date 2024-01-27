@@ -90,7 +90,7 @@ main{
     transition: all .5s ease-in-out;
 }
 .header__background:hover{
-    transform: scale(1.01);
+    transform: scale(1.1);
 }
 
 .header__background img {
