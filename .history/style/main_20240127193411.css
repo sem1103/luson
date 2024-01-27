@@ -1,3 +1,17 @@
+
+
+
+.left__menu {
+    display: flex;
+}
+
+.right__menu {
+    text-align: right;
+}
+
+
+
+
 /*-----Mnain------*/
 .bg__gray {
     background-color: #EBEBEB;

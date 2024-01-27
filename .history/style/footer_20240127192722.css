@@ -1,0 +1,288 @@
+
+footer{
+    background: #EBEBEB;
+    padding: 80px 0 48px 0;
+    position: relative;
+    z-index: 10;
+}
+footer .container{
+    display: flex;
+}
+.footer__logo{
+    margin: 0 159px 0 0;
+}
+.footer__logo > div{
+    text-align: center;
+}
+.footer__logo > div:last-child{
+    margin: 77px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left__footer{
+    display: flex;
+}
+
+footer li a, footer li button{
+    font: 700 14px Inter;
+    color: #575757;
+    text-transform: uppercase;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    background: none;
+}
+footer nav > ul li a, footer li button{
+    margin: 0 0 25px 0;
+    display: block;
+    letter-spacing: 1.4px;
+}
+footer nav > ul li:last-child > a{
+    margin: 0;
+}
+footer p, footer p a{
+    font:  14px/32px Inter;
+    color: #575757;
+    letter-spacing: 1.4px;
+
+}
+footer p{
+    margin: 10px 0 0 0;
+}
+footer a:hover{
+    color: var(--gray);
+    opacity: .8;
+}
+.right__footer{
+    display: grid;
+    grid-template-areas: 'firstArea secondArea''copyArea copyArea';
+}
+.right__footer > div:first-child{
+    margin: 0 46px 0 0;
+    grid-area: firstArea;
+}
+.right__footer > div:nth-child(2){
+    grid-area: secondArea;
+}
+
+.footer__submenu a{
+    font-weight: 400;
+    margin: 0 0 15px 0;
+    text-transform: none;
+}
+.d-f{
+    display: flex;
+    flex-wrap: wrap;
+}
+.d-f > ul{
+    margin: 0 91px 0 0;
+}
+.d-f > ul:last-child{
+    margin: 0;
+}
+.footer__icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 24px 0 0 0;
+    flex-wrap: wrap;
+}
+
+.footer__icons p{
+    font: 700 14px/25px Inter;
+    flex-basis: 70%;
+}
+.footer__icons a:nth-child(2){
+    margin: 0 15px;
+}
+footer form {
+    display: flex;
+    justify-content: space-between;
+    margin: 16px 0 0 0;
+}
+footer form button{
+    padding: 14px 25px;
+    background-color: #702E58;
+    letter-spacing: 2px;
+    font: 12px/26px Inter;
+    text-transform: uppercase;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+   
+}
+footer form input{
+    padding: 14px 18px 15px 18px;
+    max-width: 263px;
+    width: 100%;
+    border: 1px solid #BFBFBF;
+    outline: 0;
+    margin: 0 19px 0 0 ;
+    font: 13px/25px Inter;
+    color: #575757;
+    opacity: .8;
+}
+
+.copy{
+    grid-area: copyArea;
+    display: flex;
+    justify-content: space-between;
+    margin: 43px 118px 0 0;
+}
+.copy h6, .copy a{
+    font: 14px Inter;
+    color: var(--gray);
+}
+.copy a{
+    text-decoration: underline;
+}
+.copy a:nth-child(2){
+    margin: 0 30px;
+}
+
+.mobFooter{
+    display: none;
+}
+.nav__header{
+    display: none;
+}
+footer  ul li.footer__nav > a{
+    margin: 0 0 25px 0;
+}
+@media only screen and (max-width: 1540px){
+    
+    .footer__logo > div{
+        margin: 0;
+        padding: 0 10px;
+    }
+    .right__footer > div:first-child{
+        margin: 25px 46px 0 0;
+    }
+    .footer__logo{
+        margin: 0 80px 0 0 ;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    footer .container{
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0 10px;
+    }
+    .footer__logo{
+        margin: 0;
+    }
+    .footer__logo > div:last-child{
+        margin: 37px 0 0 0;
+        align-items: stretch;
+    }
+    .right__footer {
+        display: block;
+        grid-template-areas:
+            'firstArea '
+            'copyArea ';
+    }
+     
+    .right__footer > div:first-child{
+        margin: 25px auto;
+        display: table;
+    }
+    .footer__logo > div svg{
+        margin: 0;
+        padding: 0;
+    }
+}
+@media only screen and (max-width: 768px){
+    .d-f , footer form{
+        flex-direction: column;
+        align-items: start;
+    }
+    footer form{
+        margin: 0;
+    }
+    .right__footer > div:first-child{
+        margin: 25px 0 0 0 ;
+    }   
+    .d-f > ul, .d-f > ul:last-child, .right__footer > div:first-child{
+        margin: 25px 0 0 0 ;
+    }
+    footer form input, footer form button{
+        margin: 15px  0 0 0;
+        max-width: 100%;
+    }
+    .copy{
+        flex-direction: column;
+        margin: 10px 0 0 0;
+    }
+    .copy h6{
+        order: 1;
+        margin: 10px 0 0 0;
+    }
+    .copy > div{
+        display: flex;
+        flex-direction: column;
+    }
+    .copy a:nth-child(2){
+        margin: 5px 0;
+    }
+    footer{
+        padding: 41px 0 19px 0;
+    }
+    .footer__logo > div{
+        display: none;
+    }
+    .mobFooter{
+        display: initial;
+    }
+    .footer__logo > div svg{
+        width: 100%;
+    }
+    .footer__logo > div svg:nth-child(2){
+        margin: 0 10px;
+    }
+    .footer__logo > div:last-child{
+        margin: 0;
+    }
+    .left__footer{
+        width: 100%;
+        justify-content: space-between;
+    }
+    .footer__logo{
+        width: 100%;
+    }
+    .footer__logo > div svg:nth-child(2){
+        margin: 0;
+    }
+    .footer__logo > div{
+        padding: 0 ;
+    }
+    footer .nav__header{
+        margin: 0;
+    }
+    .footer__submenu{
+        margin: 15px 0 0 0;
+        display: none;
+    }
+    .d-f > ul, .d-f > ul:last-child, .right__footer > div:first-child{
+        margin: 15px 0 0 0;
+    }
+    footer nav > ul li a, footer li button{
+        margin: 0 0 15px 0 ;
+    }
+    .footer__icons{
+        flex-direction: column;
+        align-items: start;
+        margin: 10px 0 0 0;
+    }
+    .footer__icons p{
+        order: 1;
+    }
+    .footer__nav > a{
+        display: none;
+    }
+    .nav__header{
+        display: initial;
+    }
+}
