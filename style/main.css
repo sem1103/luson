@@ -12,8 +12,15 @@ header {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
 }
-
+.header__background video{
+    width: 100%;
+}
+main{
+    position: relative;
+    z-index: 10;
+}
 #page>nav {
     display: flex;
     justify-content: space-between;
@@ -74,7 +81,7 @@ header {
 }
 
 .header__background {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -405,8 +412,7 @@ p {
 
 .spec__offer {
     background-color: #F6F6F6;
-    padding: 50px 0 0 0;
-    margin: 0 0 30px 0;
+    padding: 50px 0 30px 0;
 }
 
 .slick-initialized .offer__item {
@@ -545,6 +551,8 @@ p {
 footer{
     background: #EBEBEB;
     padding: 80px 0 48px 0;
+    position: relative;
+    z-index: 10;
 }
 footer .container{
     display: flex;
@@ -721,6 +729,10 @@ footer form input{
     }
 }
 @media only screen and (max-width: 1000px){
+    .header__background video{
+        width: initial;
+    }
+
     footer .container{
         flex-direction: column;
         align-items: center;
