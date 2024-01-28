@@ -1,0 +1,6 @@
+header{
+    min-height: initial;
+}
+#page > nav{
+    color: var(--gray);
+}

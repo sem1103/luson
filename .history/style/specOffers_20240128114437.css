@@ -1,0 +1,11 @@
+header{
+    min-height: 70vh;
+    display: flex;
+}
+.header__background{
+    position: absolute;
+}
+.container2 {
+    max-width: 1160px;
+    margin: 0 auto;
+}

@@ -1,0 +1,9 @@
+header{
+    min-height: initial;
+}
+#page > nav{
+    
+}
+button rect{
+    fill: var(--gray);
+}

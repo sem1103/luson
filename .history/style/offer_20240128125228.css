@@ -1,0 +1,13 @@
+.offer{
+    max-width: 1300px;
+}
+.offer__desc h2{
+    text-align: left;
+    padding: 0;
+}
+.offer__desc p{
+    margin: 10px 0 20px 0;
+}
+.offer__desc:last-child{
+    text-align: center;
+}

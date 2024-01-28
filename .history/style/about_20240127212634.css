@@ -1,0 +1,19 @@
+.container2 {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.about__article{
+    display: flex;
+    padding: 80px 0 0 0;
+}
+.about__article div{
+    max-width: 720px;
+}
+.about__article p{
+    flex-basis: 30%;
+    margin: auto 40px auto 0 ;
+}
+.article > div:first-child{
+   float: right;
+}

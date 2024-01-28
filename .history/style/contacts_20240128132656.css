@@ -1,0 +1,8 @@
+header{
+    min-height: initial;
+}
+
+.left__menu button rect, .left__menu button{
+    fill: var(--gray);
+    color: var(--gray);
+}

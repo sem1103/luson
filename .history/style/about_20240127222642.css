@@ -1,0 +1,61 @@
+.container2 {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.about__article{
+    display: flex;
+    padding: 80px 0 0 0;
+    justify-content: space-between;
+}
+.about__article div{
+    max-width: 720px;
+}
+.about__article p{
+    flex-basis: 30%;
+    margin: auto 40px auto 0 ;
+}
+
+.article {
+    overflow: hidden; /* Предотвращает выход за границы родительского контейнера */
+  }
+
+  .container2 {
+    float: right; /* Размещение контейнера слева */
+    width: 70%; /* Занимает 70% ширины родительского контейнера */
+  }
+
+  .container2 p {
+    margin-bottom: 20px; /* Дополнительный отступ между параграфами */
+  }
+
+  .container2 > div:first-child {
+    float: left; /* Размещение изображения справа */
+    margin-left: 20px; /* Дополнительный отступ между изображением и текстом */
+  }
+
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.article h3{
+    font: 500 26px var(--playfair);
+    color: var(--gray);
+    margin: 10px 0;
+}
+.article li, .article p{
+    font: 17px/26px Inter;
+    letter-spacing: 0.2px;
+    color: var(--gray);
+}
+.article li::before{
+    content: '• ';
+}
+.article p:last-child{
+    margin: 20px 0 0 0;
+    
+
+}

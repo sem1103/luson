@@ -1,0 +1,27 @@
+header{
+    min-height: initial;
+}
+.container2 {
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+.left__menu button rect, #page>nav button, #page>nav a, .right__menu p:last-child a{
+    fill: var(--gray);
+    color: var(--gray);
+    border-color: var(--gray);
+}
+.contact{
+    padding: 200px 0 0 0;
+    display: flex;
+}
+.contact__message h2{
+    text-align: left;
+    padding: 0;
+}
+.contact__message p{
+    font-family: Inter;
+}
+.contact__message > p:last-child{
+    margin: 15px 0 20px 0;
+}

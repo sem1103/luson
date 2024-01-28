@@ -1,0 +1,7 @@
+header{
+    min-height: initial;
+}
+
+button rect{
+    fill: var(--gray);
+}

@@ -1,0 +1,49 @@
+header{
+    min-height: 80vh;
+    display: flex;
+}
+.header__background{
+    position: absolute;
+}
+.container2 {
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+.intro{
+    position: relative;
+    z-index: 10;
+    margin: auto;
+    width: 100%;
+    padding: 0 10px;
+    
+}
+.intro h1{
+    color: #fff;
+    font: 500 36px var(--playfair);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 0 0 15px 0;
+    text-align: left;
+}
+.intro p{
+    color: #fff;
+    font: 17px/26px Inter;
+    letter-spacing: 0.2px;
+}
+.offer{
+    max-width: 1600px;
+    margin: auto;
+    display: flex;
+}
+.offer__img{
+    flex-basis: 65%;
+}
+.offer__desc{
+    margin: 0 0 0 54px;
+    flex-basis: 30%;
+}
+.offer__desc h2{
+    font-size: 26px;
+    text-align: left;
+}

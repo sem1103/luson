@@ -1,0 +1,9 @@
+header{
+    min-height: initial;
+}
+
+.left__menu button rect, #page>nav button, #page>nav aç .right__menu p:last-child a{
+    fill: var(--gray);
+    color: var(--gray);
+    border-color: var(--gray);
+}
