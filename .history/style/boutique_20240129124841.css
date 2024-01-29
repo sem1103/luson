@@ -1,0 +1,69 @@
+.offer{
+    background-color: #fff;
+    padding: 107px 0 106px 0;
+}
+.offer .main__btn{
+    margin: 0 auto;
+}
+
+.brand__slider{
+    max-width: 1566px;
+    margin: 0 auto;
+    padding: 80px 10px 106px 10px;
+}
+.brand__item{
+    height: 720px !important;
+    position: relative;
+    padding: 0 41px 47px 41px;
+    display: flex !important;
+    align-items: end;
+
+}
+.brand__item:hover  .brand__desc{
+    opacity: 1;
+}
+.brand__item:hover .brand__title{
+    opacity: 0;
+}
+
+.brand__item .brand__title{
+    background: linear-gradient(270deg, rgba(255,255,255,0) 15%, rgba(0,0,0,0.5970763305322129) 79%);
+    padding: 5px 10px;
+    border-radius: 5px 0 0 5px;
+    width: 100%;
+    transition: all .5s ease-in-out;
+}
+.brand__desc{
+    position: absolute;
+    transition: all .5s ease-in-out;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    padding: 0 41px 47px 41px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.80) 0.1%, rgba(0, 0, 0, 0.00) 99.88%);
+    opacity: 0;
+}
+.brand__desc p {
+    color: #fff;
+    margin: 4px 0 47px 0;
+}
+
+.brand__item h3{
+    font: 500 26px var(--playfair);
+    color: #fff;
+  
+}
+
+.babor{
+    background: url(../img/boutique/slide1.png) center/cover;
+}
+.bellef{
+    background: url(../img/boutique/slide2.png) center/cover;
+}
+.spiler{
+    background: url(../img/boutique/slide3.png) center/cover;
+}
