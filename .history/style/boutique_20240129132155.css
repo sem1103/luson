@@ -16,7 +16,7 @@
     padding: 42% 41px 47px 41px;
     display: flex !important;
     align-items: end;
-    transition: all .5s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 .brand__item:hover  .brand__desc{
     opacity: 1;
