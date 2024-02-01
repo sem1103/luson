@@ -1,0 +1,157 @@
+.offer__desc{
+    margin: 0 0 88px 0;
+    padding: 62px 0 214px 60px;
+    border: 0;
+    background: #F6F6F6;
+    flex-basis: 60%;
+}
+
+.offer h3{
+    text-align: left;
+}
+.offer__desc p{
+    margin: 5px 0 10px 0;
+  
+}
+.offer h3, .offer__desc p{
+    width: 50%;
+}
+.offer{
+    position: relative;
+}
+.offer__img{
+    position: absolute;
+    right: 0;
+    top:62px;
+}
+.programms{
+    margin: 80px auto 0 auto;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+}
+.programm__slider{
+    margin: 0 auto;
+    padding: 80px 0 85px 0;
+}
+.programm__item{
+    margin: 0 12px;
+    height: 100%;
+    height: inherit !important;
+    flex-direction: column;
+    display: flex !important;
+}
+.programm__item:first-child{
+    margin: 0 12px 0 0;
+}
+.programm__item:last-child{
+    margin: 0 0 0 12px;
+}
+.programm__item h3, .offer__title{
+    font: 500 26px Inter;
+    letter-spacing: 2px;
+    margin: 0 0 5px 0;
+    text-transform: uppercase;
+}
+
+.programm__desc{
+    margin: 15px 0 20px 0;
+}
+.programm__item .main__btn{
+    margin: auto 0 0 0;
+
+}
+
+.programm__modal{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 9999;
+}
+.programm__contant{
+    display: flex;
+    max-width: 1540px;
+    margin: auto;
+    justify-content: space-between;
+    background-color: #fff;
+}
+.programm__img{
+    flex-basis: calc(35% - 66px);
+}
+.programm__info{
+    flex-basis: 65%;
+    padding: 70px 54px 60px 0;
+}
+.day__btns{
+    margin:  0 0 40px 0;
+}
+.day__btns button{
+    font: 400 12px/26px Inter;
+    border: 0;
+    width: 135px;
+    height: 54px;
+    border-radius: 80px;
+    transition: all .3s ease-in-out;
+    margin: 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--gray);
+    background: none;
+}
+
+.day__btns button:hover, button.active__btn{
+    box-shadow: 0 0 10px #702E58;
+    background: #702E58;
+    color: #fff;
+    
+}
+.day__btns button:nth-child(2){
+    margin: 0 20px;
+}
+
+
+.programm__info h3{
+    font: 500 26px var(--playfair);
+    color: var(--gray);
+    text-transform: uppercase;
+}
+.programm__price{
+    color: #702E58;
+    margin: 10px 0 25px 0;
+}
+
+@media only screen and (max-width: 1100px) {
+    .offer__img{
+        position: initial;
+    }
+    .offer__desc{
+        margin: 0;
+        padding: 15px 10px 28px 10px;
+        order: 1;
+    }
+  
+    .offer h3, .offer__desc p{
+        width: 100%;
+    }
+    .offer{
+        padding: 0;
+    }
+}
+@media only screen and (max-width: 450px){
+    .programm__item{
+        margin: 0 !important;
+        padding: 0 10px 0 0;
+    }
+    .programm__item:last-child{
+        padding: 0;
+    }
+    .slick-list{
+        padding: 0 20px 0 0 !important;
+    }
+    .programm__slider{
+        padding: 0 0 0 10px;
+    }
+}

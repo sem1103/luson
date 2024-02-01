@@ -1,0 +1,13 @@
+.offer__desc{
+    margin: 0;
+    padding: 62px 0 0 60px;
+}
+.offer__img{
+    margin: 62px 0 0 0;
+}
+.offer h3{
+    text-align: left;
+}
+.offer{
+    align-items: start;
+}

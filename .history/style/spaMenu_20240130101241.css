@@ -1,0 +1,9 @@
+.slide__item{
+    display: flex !important;
+    flex-direction: column;
+    margin: 0 10px;
+    height: inherit !important;
+}
+.slider__desc{
+    height: initial !important;
+}

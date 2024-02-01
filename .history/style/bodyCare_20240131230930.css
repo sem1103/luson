@@ -1,0 +1,47 @@
+.offer h3, .offer__desc p{
+    width: 100%;
+}
+.offer .offer__desc  .main__btn{
+    margin: 0;
+}
+.offer__desc{
+    margin: auto auto auto 40px;
+}
+.width__border{
+    padding: 80px 0;
+}
+.body__programms{
+    max-width: 1620px;
+    margin: 0 auto 80px auto;
+    display: flex;
+    padding: 60px;
+    background: #F6F6F6;
+    justify-content: space-between;
+}
+.programms__img{
+    flex-basis: 60%;
+}
+.programms__info{
+    flex-basis: calc(40% - 60px);
+    margin: auto 0 auto auto;
+}
+.programms__info p{
+    margin: 5px 0 20px 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .body__programms{
+        flex-direction: column;
+        padding: 0 0 11px 0;
+        margin: 40px 0;
+    }
+    .programms__info{
+
+        padding: 15px 10px 0 10px;
+    }
+}
+@media only screen and (max-width: 500px){
+    .spa__slider.spa__slider{
+        padding: 20px 0 40px 0;
+    }
+}

@@ -1,0 +1,252 @@
+.spa__slider{
+    margin: 80px auto 91px auto;
+    padding: 0;
+}
+.slide__item{
+    display: flex !important;
+    flex-direction: column;
+    margin: 0 5px;
+    height: inherit !important;
+}
+.rituals h3
+.container2{
+    max-width: 1200px;
+}
+.section__title{
+    max-width: 1060px;
+    margin: auto;
+    text-align: center;
+}
+.spa__slider img{
+    max-height: 520px;
+}
+.mobile__slide{
+    display: none !important;
+}
+.offer__desc .main__btn{
+    margin: 0 auto;
+}
+.offer:last-child .main__btn{
+    margin:  0;
+}
+
+.rituals{
+    display: flex;
+    max-width: 1020px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: stretch;
+}
+.rituals > div:first-child{
+    flex-basis: 50%;
+   
+}
+
+.rituals > div:last-child{
+    flex-basis: calc(50% - 82px); 
+    margin: 0 0 120px 0;   
+}
+.rituals > div{
+    display: flex;
+    flex-direction: column;
+}
+
+.rituals h3{
+    font: 500 26px var(--playfair);
+    letter-spacing: 2px;
+    margin: 0 0 24px 0;
+    color: var(--gray);
+}
+h3{
+    text-transform: uppercase;
+}
+.rituals p{
+    margin: 40px 0 20px 0 ;
+}
+.active__modal{
+    overflow: hidden;
+}
+.active__modal .modal__wrapper{
+    left: 0;
+}
+
+.modal__wrapper{
+    transition: all .5s ease-in-out;
+    position: fixed;
+    top: 0;
+    left: 100%;
+    height: 100%;
+    width: 100%;
+    background: #00000033;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    backdrop-filter: blur(10px);
+}
+.modal__content{
+    max-width: 1540px;
+    margin: auto;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.close__btn{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    border: 0;
+    background: none;
+    padding: 0;
+    width: 58px;
+    height: 58px;
+    outline: 0;
+    z-index: 99;
+}
+.modal__img{
+    width: 50%;
+}
+
+.modal__info{
+    padding: 67px 65px 59px 0;
+    width: calc(50% - 65px);
+    overflow: auto;
+    height: 85vh;
+}
+
+.modal__title{
+    margin: 40px 0 20px 0;
+    font: 500 26px var(--playfair);
+    color: var(--gray);
+}
+
+.modal__img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.modal__info p{
+    font: 17px/26px Inter;
+    letter-spacing: 0.2px;
+    color: var(--gray);
+}
+.modal__info .price{
+    color: #702E58;
+}
+.modal__btns{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px 0;
+}
+.modal__btns button{
+    max-width: calc(33.33% - 35px);
+    width: 100%;
+    font: 12px/26px Inter;
+    color: var(--gray);
+    padding: 14px 0;
+    outline: 0;
+    margin: 0;
+    border: 1px solid #702E58;
+    background-color: #fff;
+    border-radius: 50px;
+    transition: all .3s ease-in-out;
+}
+
+.modal__btns .active__btn, .modal__btns button:hover{
+    background: #702E58;
+    color: #fff;
+}
+
+@media only screen and (max-width: 1200px){
+    .modal__btns button{
+        max-width: calc(50% - 25px);
+    }
+}
+
+@media only screen and (max-width: 900px){
+    .rituals{
+        flex-direction: column;
+        padding: 0 10px;
+        gap: 15px 0;
+    }
+    .rituals > div:last-child{
+        margin: 0;
+    }
+    .modal__btns button{
+        max-width: 100%;
+    }
+    .modal__img{
+        width: 45%;
+    }
+    .modal__info{
+        width: calc(55% - 35px);
+        padding-right: 35px;
+
+    }
+   
+}
+@media only screen and (max-width: 500px) {
+    .slide__item{
+        display: block !important;
+        height: initial !important;
+    }
+    .slider__desc{
+        height: initial;
+    }
+    .slick-track{
+        align-items: start;
+    }
+    .spa__slider img{
+        max-height: 400px;
+    }
+    .mobile__slide{
+        display: flex;
+    }
+    .spa__slider{
+        margin: 40px 0 0 0;
+        padding: 0;
+    }
+    .slider__desc{
+        padding:  0 0 20px 0;
+    }
+    .rituals{
+        display: none;
+    }
+    .offer {
+        padding: 0;
+    }
+    .width__border  .offer__desc{
+        padding: 15px 10px;
+    }
+    .section__title p{
+        margin: 10px 0 0 0;
+    }
+
+    .modal__content{
+        flex-direction: column;
+        height: 100%;
+        overflow: auto;
+        margin:  10px;
+    }
+    .modal__img, .modal__info{
+        width: 100%;
+    }
+    .modal__info{
+        overflow: initial;
+        height: initial;
+        padding: 15px 10px 21px 10px;
+    }
+    .modal__info p{
+        line-height: 20px;
+    }
+    .modal__title{
+        margin: 20px 0 10px;
+    }
+    .close__btn{
+        width: 28px;
+        height: 28px;
+    }
+    
+}

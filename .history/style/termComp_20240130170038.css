@@ -1,0 +1,18 @@
+.rituals{
+    padding: 80px 0 0 0;
+}
+.rituals > div:last-child{
+    margin: 0;
+}
+
+.swimm{
+    background: url(../img/tempComp/offer1.png);
+}
+
+.phytobar{
+    background: url(../img/tempComp/offer2.png);
+}
+
+.rent{
+    background: url(../img/tempComp/offer3.png);
+}

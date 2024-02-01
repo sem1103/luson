@@ -1,0 +1,6 @@
+.slide__item{
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+    height: inherit !important;
+}

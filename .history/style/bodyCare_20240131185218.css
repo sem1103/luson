@@ -1,0 +1,20 @@
+.offer h3, .offer__desc p{
+    width: 100%;
+}
+.offer .offer__desc  .main__btn{
+    margin: 0;
+}
+.offer__desc{
+    margin: auto auto auto 40px;
+}
+.width__border{
+    padding: 80px 0;
+}
+.body__programms{
+    max-width: 1620px;
+    margin: 0 auto;
+    display: flex;
+}
+.programms__img{
+    flex-basis: 50%;
+}

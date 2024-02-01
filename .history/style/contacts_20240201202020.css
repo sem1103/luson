@@ -1,0 +1,142 @@
+header{
+    min-height: initial;
+}
+.container2 {
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+.left__menu button rect, #page>nav button, #page>nav a, .right__menu p:last-child a{
+    fill: var(--gray);
+    color: var(--gray);
+    border-color: var(--gray);
+}
+.contact{
+    padding: 200px 10px 0 10px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    justify-content: space-between;
+}
+.contact__bg{
+    position: absolute;
+    top: 0;
+    right: 90%;
+}
+.contact__message{
+    margin: 40px 0 0 0;
+    flex-basis: calc(40% - 32px);
+ 
+}
+.contact__message h2{
+    text-align: left;
+    padding: 0;
+ 
+
+}
+.contact__message p{
+    font-family: Inter;
+    margin: 10px 0 0 0;
+  
+
+}
+.contact__message  p:last-of-type{
+    margin: 15px 0 20px 0;
+}
+.contact__message .main__btn, .contact__message h2, .contact__message p{
+    /* z-index: 99;
+    position: relative; */
+}
+.map__desc{
+    flex-basis: 60%;
+}
+#map{
+    max-height: 340px;
+}
+
+.map__desc iframe{
+    width: 100%;
+ 
+}
+.desc{
+    display: flex;
+    margin: 28px 0 0 0;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.desc > p{
+    margin: 8px 0 0 0;
+    flex-basis: calc(60% - 35px);
+}
+.desc div{
+    flex-basis: 40%;
+}
+.desc div p:nth-child(2) .main__btn{
+    margin: 22px 0 16px 0;
+}
+.desc > div > p:last-of-type{
+    font-size: 10px;
+}
+.coordinations{
+    margin: 18px 0 0 0;
+}   
+
+.contact__info{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 60px auto 0 auto;
+    flex-wrap: wrap;
+    row-gap: 25px;
+    padding: 0 10px;
+}
+.contact__info p{
+    margin: 0 195px 0 0 ;
+    border-left: 1px solid #702E58;
+    padding: 0 0 0 16px;
+    text-align: left;
+}
+.contact__info p a{
+    display: block;
+    color: #702E58;
+}
+.contact__soc a{
+    padding: 0 3px;
+}
+
+@media only screen and (max-width: 768px){
+    .contact{
+        flex-direction: column;
+        padding: 76px 10px 0 10px;
+    }
+    .contact__message p, .contact__message p:last-of-type{
+        margin: 20px 0;
+    }
+    .contact__message{
+        margin: 0;
+    }
+    .contact__soc{
+        margin: 15px 0 0 0;
+    }
+    
+}
+@media only screen and (max-width: 568px){
+    .desc, .contact__info{
+        flex-direction: column;
+    }
+    .desc div, .coordinations{
+        margin: 10px 0 0 0;
+    }
+    .desc div p:nth-child(2) .main__btn{
+        margin:  20px 0;
+    }
+    .contact__info p{
+        margin: 0;
+    }
+    .contact__info{
+        margin: 40px 0 0 0;
+    }
+    .contact__info{
+        align-items: start;
+    }
+}

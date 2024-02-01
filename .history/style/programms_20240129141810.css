@@ -1,0 +1,21 @@
+.offer__desc{
+    margin: 0;
+    padding: 62px 0 0 60px;
+    border: 0;
+    flex-basis: 70%;
+}
+.offer__img{
+    margin: 62px 0 0 0;
+}
+.offer h3{
+    text-align: left;
+}
+.offer__desc p{
+    margin: 5px 0 10px 0;
+}
+.offer{
+    position: relative;
+}
+.offer__img{
+    position: absolute;
+}

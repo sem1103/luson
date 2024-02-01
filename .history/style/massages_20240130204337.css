@@ -1,0 +1,45 @@
+.offer__desc {
+    padding: 108px 0 133px 60px;
+}
+
+.offer__img {
+    top: 108px;
+}
+
+.price {
+    display: block;
+    margin: 5px 0;
+    color: #702E58;
+}
+
+.massage__item {
+    margin: 0 10px;
+}
+
+.massage__item h3 {
+    font: 500 26px var(--playfair);
+    color: var(--gray);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.massage__item[aria-hidden="true"] .massage__desc{
+    opacity: 0;
+}
+.massage__desc{
+    opacity: 1;
+    margin: 15px 0 0 0;
+    transition: all .5s ease-in-out;
+}
+.price{
+    color: #702E58;
+}
+
+@media only screen and (max-width: 800px) {
+    .programms {
+        margin: 40px auto 0 auto;
+    }
+
+    .offer__desc {
+        padding: 15px 10px 20px 10px;
+    }
+}

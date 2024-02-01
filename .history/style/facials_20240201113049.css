@@ -1,0 +1,49 @@
+.width__border  .offer__img{
+    position: initial;
+}
+.width__border{
+    padding-bottom: 0;
+    max-width: 1220px;
+}
+.width__border P{
+    margin-bottom: 20px;
+}
+.width__border .offer__desc{
+    background: inherit;
+}
+
+.width__border .offer h3, .width__border .offer__desc p{
+    width: 100%;
+}
+.programms{
+    max-width: 1415px;
+}
+.offer__desc{
+    padding: 108px 0 96px 100px;
+
+}
+.article > div:last-child{
+    max-width: 1410px;
+    padding: 108px 0 0 0;
+}
+.article .offer__desc{
+    background-color: inherit;
+}
+.article h3{
+    margin: 0 0 5px 0;
+}
+
+.article .offer h3,.article .offer__desc p{
+    width: 100%;
+}
+.article .offer__desc{
+    margin: 0;
+    padding: 0;
+    margin: auto;
+}
+.article > div:first-child{
+    max-width: 100%;
+}
+.article .offer__desc p{
+    margin: auto;
+}

@@ -1,0 +1,25 @@
+.spa__slider{
+    padding: 80px 0 91px 0;
+}
+.slide__item{
+    display: flex !important;
+    flex-direction: column;
+    margin: 0 5px;
+    height: inherit !important;
+}
+.container2{
+    max-width: 1200px;
+}
+.section__title{
+    max-width: 1060px;
+    margin: auto;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 450px) {
+    .slide__item{
+        
+        height: initial !important;
+    }
+}

@@ -1,0 +1,16 @@
+.width__border  .offer__img{
+    position: initial;
+}
+.width__border{
+    padding-bottom: 0;
+}
+.width__border P{
+    margin-bottom: 20px;
+}
+.width__border .offer__desc{
+    background: inherit;
+}
+
+.width__border .offer h3, .width__border .offer__desc p{
+    width: 100%;
+}

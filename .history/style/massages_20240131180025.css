@@ -1,0 +1,126 @@
+.offer__desc {
+    padding: 108px 0 133px 60px;
+}
+
+.offer__img {
+    top: 108px;
+}
+
+.price {
+    display: block;
+    margin: 5px 0;
+    color: #702E58;
+}
+.massage__slider {
+    margin: 80px 0 0 0;
+}
+.massage__item {
+    margin: 0 5px;
+}
+
+.massage__item h3 {
+    font: 500 26px var(--playfair);
+    color: var(--gray);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.massage__item[aria-hidden="true"] .massage__desc{
+    opacity: 0;
+    overflow: hidden;
+    height: 0;
+
+}
+.massage__item .massage__desc{
+    height: initial;
+    opacity: 1;
+    margin: 15px 0 0 0;
+    transition: all .5s ease-in-out;
+}
+.price{
+    color: #702E58;
+}
+.width__border .offer__img {
+    position: initial;
+}
+.width__border .offer__desc{
+    background: inherit;
+}
+.width__border .offer__title, .width__border .offer__desc p{
+    width: 100%;
+    text-align: center;
+}
+.offer__desc p{
+    margin: 0;
+}
+.width__border .main__btn{
+    margin: 0 auto;
+}
+
+.gift__certificate {
+    background: url(../img/massages/mainBg.png) center/cover;
+    margin: 80px 0 0 0;
+}
+.certificate__desc p, .certificate__desc h3{
+    text-align: left;
+
+}
+.spa__slider .slick-arrow {
+    top: 50%;
+}
+.massage__slider  .slick-prev{
+    left: 80px ;
+}
+.massage__slider  .slick-next{
+    right: 80px;
+}
+.mob__slide{
+    /* display: none !important; */
+}
+
+
+@media only screen and (max-width: 800px) {
+    .programms {
+        margin: 40px auto 0 auto;
+    }
+
+    .offer__desc {
+        padding: 15px 10px 20px 10px;
+    }
+    .offer {
+        display: none;
+    }
+   .spa__slider{
+    padding: 40px 0;
+   }
+   .massage__slider{
+    margin: 40px 0 0 0;
+   }
+   .certificate{
+    background: #EBEBEB;
+   }
+   .certificate__desc h3{
+    margin: 15px 0 0 0;
+   }
+
+}
+
+@media only screen and (max-width: 450px) {
+    .mob__slide{
+        display: initial;
+    }
+    .gift__certificate{
+        margin: 40px 0 0 0 ;
+    }
+    .spa__slider {
+        padding: 40px 0;
+    }
+    .spa__slider.slick-initialized{
+        padding: 40px 0;
+    }
+    .certificate__desc{
+        padding: 0 10px 40px 10px;
+    }
+    .massage__item h3{
+        font-size: 18px;
+    }
+}

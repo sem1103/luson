@@ -1,0 +1,46 @@
+.offer{
+    max-width: 1300px;
+    justify-content: space-between;
+}
+.offer__desc h2{
+    text-align: left;
+    padding: 0;
+}
+.offer__desc p{
+    margin: 10px 0 20px 0;
+}
+.offer h3{
+    text-align: center;
+}
+.width__border .offer__desc{
+    text-align: center;
+    flex-basis: calc(40% - 54px);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid #702E58;
+    border-left: 0;
+    border-right: 0;
+    padding: 20px 0 ;
+    align-items: center;
+    margin: 0;
+}
+.mobTitile{
+    display: none;
+}
+@media only screen and (max-width: 768px){
+    .offer{
+        padding: 0 10px;
+    }
+    .width__border .offer__desc{
+        order: 1;
+        margin: 20px 0 0 0;
+    }
+    .mobTitile{
+        display: initial;
+        text-align: center;
+    }
+    .mobTitile p{
+        margin: 10px 0 0 0;
+    }
+}

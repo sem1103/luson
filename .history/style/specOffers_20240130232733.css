@@ -1,0 +1,79 @@
+header{
+    min-height: 80vh;
+    display: flex;
+}
+.header__background{
+    position: absolute;
+}
+.container2 {
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+.intro{
+    position: relative;
+    z-index: 10;
+    margin: auto;
+    width: 100%;
+    padding: 0 10px;
+    
+}
+.intro h1{
+    color: #fff;
+    font: 500 36px var(--playfair);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 0 0 15px 0;
+    text-align: left;
+}
+.intro p{
+    color: #fff;
+    font: 17px/26px Inter;
+    letter-spacing: 0.2px;
+}
+.offer{
+    max-width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    padding: 80px 0 0 0;
+}
+.offer__img{
+    flex-basis: 60%;
+}
+.offer__desc{
+    margin: auto auto auto 54px;
+    flex-basis: 40%;
+    padding: 0 10px;
+}
+.offer__desc h3{
+    font:500 26px var(--playfair);
+    color: var(--gray);
+    text-align: left;
+}
+.offer__desc p{
+    margin: 5px 0 20px 0;
+    font-family: Inter;
+}
+section > h2, .section__title h2{
+    margin: 0 0 20px 0;
+}
+
+@media only screen and (max-width: 768px){
+    header{
+        min-height: 50vh;
+    }
+    .offer{
+        flex-direction: column;
+        margin: 40px 0 0 0;
+    }
+    .offer__desc{
+        margin: 20px 0 0 0;
+    }
+    .offer__desc p{
+        margin: 10px 0 20px 0;
+    }
+    section > h2{
+        margin:  0 0 10px 0;
+    }
+}
+
