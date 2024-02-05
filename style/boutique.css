@@ -76,8 +76,11 @@
 }
 @media only screen and (max-width: 768px){
     .brand__item{
-        padding: 0 41px 47px 41px;
+        padding: 0 20px 19px 20px;
         height: 470px !important;
+    }
+    .brand__desc{
+        padding: 0 20px 19px 20px;
     }
     .brand__desc p{
         margin: 5px 0 12px 0;
@@ -87,5 +90,8 @@
     }
     .offer{
         padding: 40px 10px 25px 10px;
+    }
+    .width__border .offer__desc{
+        margin: 20px 0 0 0;
     }
 }

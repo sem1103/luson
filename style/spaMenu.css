@@ -208,8 +208,9 @@ h3{
         margin: 20px 0 0 0;
         padding: 0;
     }
-    .slider__desc{
+    .slide__item  .slider__desc{
         padding:  0 ;
+        margin: 15px 0 0 0;
     }
     .rituals{
         display: none;
@@ -247,6 +248,9 @@ h3{
     .close__btn{
         width: 28px;
         height: 28px;
+    }
+    h3.offer__title{
+        text-align: left;
     }
     
 }

@@ -132,6 +132,8 @@ header{
     }
     .contact__info p{
         margin: 0;
+        padding: 0;
+        border: 0;
     }
     .contact__info{
         margin: 40px 0 0 0;

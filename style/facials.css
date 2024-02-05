@@ -52,6 +52,24 @@ header{
     .modal__text{
         padding: 15px 10px 20px 10px;
     }
+    .text__subtitle {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .text__subtitle::after {
+        content: '›';
+        transform: rotate(0);
+        margin: 0 5px 0 0 ;
+        transition: all .5s ease-in-out;
+        color: #702E58;
+    }
+    .active__acc::after{
+        transform: rotate(90deg);
+    }
+    .text__block p {
+        display: none;
+      }
 }
 
 

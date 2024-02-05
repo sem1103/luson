@@ -46,7 +46,7 @@ section>p {
     text-align: center;
 }
 
-p {
+p, .price, .text__subtitle {
     color: var(--gray);
     font: 17px/26px Inter;
 }
@@ -371,10 +371,10 @@ p {
     .intro h1{
         padding: 0 0 5px 0;
     }
-    .offers__desc h5, .spa__slider h3, .contacts p, .contacts a, .programms__item h3, .article h3, .offer__desc h3, .brand__item h3, .programm__item h3, .programm__info h3, .modal__title, .massage__item h3, .programms__info h3{
+    .offers__desc h5, .spa__slider h3, .contacts p, .contacts a, .programms__item h3, .article h3, .offer__desc h3, .brand__item h3, .programm__item h3, .programm__info h3, .modal__title, .massage__desc h3, .programms__info h3{
         font-size: 18px !important;
     }
-    .offers__desc p, section>p, .slider__desc p, .certificate__desc p, .spa__programms > p, .soc__icons p, .article li, .article p, .about__article p, .intro p, .offer__desc p, .contact__message p, .coordinations p, .desc > p, .brand__desc p, .programm__desc p, .programm__price, .day__accardion button, .accardion__content li, .rituals p, .section__title p, .massage__desc p{
+    .offers__desc p, section>p, .slider__desc p, .certificate__desc p, .spa__programms > p, .soc__icons p, .article li, .article p, .about__article p, .intro p, .offer__desc p, .contact__message p, .coordinations p, .desc > p, .brand__desc p, .programm__desc p, .programm__price, .day__accardion button, .accardion__content li, .rituals p, .section__title p, .massage__desc p, .mobTitile p, .price, .text__subtitle, .text__block p{
         font-size: 14px !important;
         line-height: 20px !important;
     }

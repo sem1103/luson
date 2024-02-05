@@ -96,4 +96,7 @@
         padding: 34px 35px 40px 35px;
         
     }
+    .modal__text .modal__title{
+        margin: 0 0 10px 0;
+    }
 }

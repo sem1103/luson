@@ -345,7 +345,7 @@ button.active__btn {
         transition: all .5s ease-in-out;
         color: #702E58;
     }
-    .day__accardion .active__acc::after{
+    .text__subtitle .active__acc::after{
         transform: rotate(90deg);
     }
 

@@ -521,10 +521,7 @@
                     }
                 ]
             });
-        })
-
-
-        $('.brand__slider').slick({
+            $('.brand__slider').slick({
             slidesToShow: 3,
             slidesToScroll: 1,
             nextArrow: false,
@@ -554,6 +551,18 @@
                 }
             ]
         });
+
+
+          // Функция установки позиции кнопок слайдера
+          function setPositionBtns(btn, img) {
+                $(btn).css('top', `${$(img).height() / 2}px`);
+            }
+
+            setPositionBtns('.spa__slider  .slick-arrow', '.spa__slider  img');     
+        })
+
+
+       
 
        
 

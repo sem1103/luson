@@ -1,0 +1,96 @@
+
+.rituals > div:last-child{
+    margin: 0;
+}
+.spa__slider {
+    padding: 0;
+}
+.swimm{
+    background: url(../img/tempComp/offer1.webp) center/cover;
+}
+
+.phytobar{
+    background: url(../img/tempComp/offer2.webp) center/cover;
+}
+
+.rent{
+    background: url(../img/tempComp/offer3.webp) center/cover;
+}
+.brand__item.slick-slide {
+    height: inherit ;
+}
+.brand__slider{
+    padding: 40px 0 80px 0;
+}
+.spa__menu__title{
+    margin: 0;
+}
+.slider__desc{
+    margin: 0;
+}
+.slider__desc h3{
+    margin: 15px 0 20px 0;
+}
+.slick-next{
+    right: -84px;
+}
+.slick-prev{
+    left: -84px;
+}
+.bg__white{
+    background-color: #F9F9F9;
+}
+.offer h3, .offer__desc p{
+    width: 40%;
+}
+
+@media only screen and (max-width: 1400px) {
+    .slick-slider .slick-next{
+        right: 14px;
+    }
+    .slick-slider .slick-prev{
+        left: 14px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .brand__item{
+        margin: 0 5px;
+        max-width: 400px !important;
+        height: initial !important;
+    }
+    .swimm{
+       order: 3;
+    }
+    
+    .phytobar{
+       order: 1;
+    }
+    
+    .rent{
+        order: 2;
+    }
+    section > h2, .section__title h2{
+        margin: 0;
+    }
+    .rituals{
+        display: block;
+        padding: 0 10px;
+    }
+    .rituals h3{
+        margin: 0 0 10px 0;
+    }
+    .rituals > div:first-child img{
+        display: none;
+    }
+    .rituals p{
+        margin: 15px 0 20px 0;
+    }
+    .brand__slider{
+        padding: 40px 0;
+    }
+    .spa__slider {
+        padding: 0 0 20px 0;
+    }
+    
+}

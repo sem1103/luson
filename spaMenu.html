@@ -527,15 +527,25 @@
                     }
                 ]
             });
-        })
-
-        $('main .main__btn').click(openCloseModalHandler);
+            
+            $('main .main__btn').click(openCloseModalHandler);
         $('.close__btn').click(openCloseModalHandler)
 
         function openCloseModalHandler(){
             $('body').toggleClass('active__modal')
         }
 
+
+          // Функция установки позиции кнопок слайдера
+          function setPositionBtns(btn, img) {
+                $(btn).css('top', `${$(img).height() / 2}px`);
+            }
+
+            setPositionBtns('.spa__slider   .slick-arrow', '.spa__slider   img');     
+
+        })
+
+      
     </script>
 
     <script src="scripts/header.js"></script>
