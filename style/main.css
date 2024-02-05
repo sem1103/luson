@@ -329,6 +329,7 @@ p {
     }
     .programms__item{
         margin: 0 10px;
+        padding: 258px 17px 19px 17px;
     }
     .programms__slider  .slick-list{
         padding: 0 30px;
