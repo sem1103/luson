@@ -56,7 +56,10 @@ p, .price, .text__subtitle {
     margin: 40px auto 0 auto;
 }
 
-
+.spa__slider img {
+    max-width: 500px;
+    width: 100%;
+}
 
 .slick-initialized .slider__item {
     margin: 0 10px;

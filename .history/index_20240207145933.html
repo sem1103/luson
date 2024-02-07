@@ -519,7 +519,7 @@
                     breakpoint: 1000,
                     settings: {
                         slidesToShow: 2,
-                        centerMode: false,
+                        centerPadding: '0'
 
                     }
                 },
@@ -529,6 +529,9 @@
                         slidesToShow: 1,
                         slidesToScroll: 1,
                         centerPadding: '15px',
+
+                        variableWidth: false,
+
                     }
                 }
             ]
@@ -584,26 +587,16 @@
                 $(btn).css('top', `${$(img).height() / 2}px`);
             }
            
-            setImgHeight('.spa__slider img')
+
             setPositionBtns('.spa__slider  .slick-arrow', '.spa__slider  img');  
-           
+
             $(window).resize(()=>{
                 setPositionBtns('.spa__slider  .slick-arrow', '.spa__slider  img');  
-                if($(window).width() < 768) {
+                if($(window).width < 768) {
                     setPositionBtns('.offer__slider   .slick-arrow', '.offer__slider   img');     
                 }   
-                setImgHeight('.spa__slider img')
+                      
             })   
-
-            function setImgHeight(img){
-                let images = document.querySelectorAll(img);
-                let maxHeight = 0;
-                images.forEach(function (image) {
-                    maxHeight = Math.max(maxHeight, image.height);
-                    image.style.height = maxHeight + 'px';
-                    image.style.objectFit = 'cover';
-                });
-            }
            })
     </script>
 

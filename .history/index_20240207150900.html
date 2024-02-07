@@ -584,15 +584,15 @@
                 $(btn).css('top', `${$(img).height() / 2}px`);
             }
            
-            setImgHeight('.spa__slider img')
+
             setPositionBtns('.spa__slider  .slick-arrow', '.spa__slider  img');  
-           
+
             $(window).resize(()=>{
                 setPositionBtns('.spa__slider  .slick-arrow', '.spa__slider  img');  
                 if($(window).width() < 768) {
                     setPositionBtns('.offer__slider   .slick-arrow', '.offer__slider   img');     
                 }   
-                setImgHeight('.spa__slider img')
+                setImgHeight('.slide__item img')
             })   
 
             function setImgHeight(img){
@@ -603,6 +603,8 @@
                     image.style.height = maxHeight + 'px';
                     image.style.objectFit = 'cover';
                 });
+                
+               
             }
            })
     </script>

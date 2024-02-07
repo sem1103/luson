@@ -56,7 +56,10 @@ p, .price, .text__subtitle {
     margin: 40px auto 0 auto;
 }
 
-
+.spa__slider img {
+    max-width: 500px;
+    width: 100%;
+}
 
 .slick-initialized .slider__item {
     margin: 0 10px;
@@ -91,6 +94,10 @@ p, .price, .text__subtitle {
     text-transform: uppercase;
 }
 
+.spa__slider .slick-slide {
+    max-width: 500px;
+    width: 100% !important;
+}
 
  .slick-track {
     display: flex !important;

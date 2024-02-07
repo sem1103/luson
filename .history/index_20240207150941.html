@@ -584,9 +584,9 @@
                 $(btn).css('top', `${$(img).height() / 2}px`);
             }
            
-            setImgHeight('.spa__slider img')
+
             setPositionBtns('.spa__slider  .slick-arrow', '.spa__slider  img');  
-           
+            setImgHeight('.spa__slider img')
             $(window).resize(()=>{
                 setPositionBtns('.spa__slider  .slick-arrow', '.spa__slider  img');  
                 if($(window).width() < 768) {
