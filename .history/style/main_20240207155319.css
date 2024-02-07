@@ -440,7 +440,7 @@ p, .price, .text__subtitle {
         top: 40%;
     }
     .logo{
-        padding:  0;
+        padding: 120px 0 0 0;
         margin: auto auto 33px auto ;
     }
     .offer__slider .slick-arrow{
