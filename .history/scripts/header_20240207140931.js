@@ -1,5 +1,8 @@
 $(document).ready(function () {
     let stickyElement = $('#page > nav')
+    let stickyHeight = stickyElement.height();
+   
+
 
     $(window).scroll(function () {
         let scrollPosition = $(window).scrollTop();
@@ -9,6 +12,7 @@ $(document).ready(function () {
         } else {
             stickyElement.removeClass('sticky__elem')
         }
+        console.log(headerHeight);
 
     });
 

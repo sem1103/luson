@@ -1,5 +1,8 @@
 $(document).ready(function () {
     let stickyElement = $('#page > nav')
+    let stickyHeight = stickyElement.height();
+   
+
 
     $(window).scroll(function () {
         let scrollPosition = $(window).scrollTop();

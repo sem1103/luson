@@ -1,14 +1,18 @@
 $(document).ready(function () {
     let stickyElement = $('#page > nav')
+    let stickyHeight = stickyElement.height();
+   
+
 
     $(window).scroll(function () {
         let scrollPosition = $(window).scrollTop();
         let headerHeight = $('header').height();
-        if (scrollPosition > headerHeight) {
+        if (scrollPosition > stickyHeight) {
             stickyElement.addClass('sticky__elem')
         } else {
             stickyElement.removeClass('sticky__elem')
         }
+        console.log(headerHeight);
 
     });
 

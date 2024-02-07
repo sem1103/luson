@@ -439,15 +439,14 @@ p, .price, .text__subtitle {
         top: 35%;
     }
    
-    
+    .logo{
+        padding: 120px 0 0 0;
+    }
     
 }
 @media only screen and (max-width: 450px){
     .slick-arrow{
         top: 40%;
-    }
-    .logo{
-        padding: 120px 0 0 0;
     }
     .offer__slider .slick-arrow{
         top: 25%;
